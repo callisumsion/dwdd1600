@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Calli Sumsion">
+    <meta name="description" content="Activities to do in the summer">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Summer Bucket List</title>
+</head>
+
+<body>
+    <!-- start the page head -->
+    <header>
+        <span>Create & Express</span>
+    </header>
+
+    <!-- start the page navigation -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Explore & Adventure</a></li>
+            <li><a href="create.html">Create & Express</a></li>
+            <li><a href="_blank">Grow & Glow-Up</a></li>
+            <li><a href="_blank">Social & Fun</a></li>
+            <li><a href="_blank">Recharge & Reset</a></li>
+            <li><a href="_blank">Contact Us</a></li>
+        </ul>
+
+    </nav>
+
+    <!-- start the main content -->
+    <main>
+        <h1>Create & Express</h1>
+
+        <dl>
+        <dt>🎥 Start a Mini Vlog Series</dt>
+        <dd>Document your summer adventures by recording and editing short videos to share with friends or post online.
+        </dd>
+
+        <dt>🎨 Host a Paint & Pizza Night</dt>
+        <dd>Gather your friends for a laid-back evening of painting canvases and sharing your favorite pizza.</dd>
+
+        <dt>👚 DIY Thrift Flips</dt>
+        <dd>Buy secondhand clothes and transform them into fresh, one-of-a-kind pieces with sewing, dyeing, or
+            embellishments.</dd>
+
+        <dt>📷 Summer Photo Challenge</dt>
+        <dd>Set daily or weekly photography prompts to inspire you to see the world in new ways.</dd>
+
+        <dt>🎵 Design a Summer Playlist</dt>
+        <dd>Curate a collection of songs that capture the mood of your summer and share it with friends.</dd>
+
+        <dt>📝 Create a Vision Board</dt>
+        <dd>Collect images, quotes, and goals that inspire you, then arrange them on a board to visualize your dreams.
+        </dd>
+
+        <dt>🍹 Try Trendy Recipes</dt>
+        <dd>Experiment in the kitchen by making popular treats like homemade boba, fancy mocktails, or aesthetic
+            desserts.</dd>
+
+        <dt>📖 Make a Scrapbook or Polaroid Wall</dt>
+        <dd>Print photos and keepsakes to build a physical record of your favorite summer memories.</dd>
+        </dl>
+
+
+
+    </main>
+
+    <!-- start the footer -->
+    <footer>
+        <p>&copy;2025 &bull; Calli Sumsion &bull; DGM Project</p>
+    </footer>
+
+</body>
+
+</html>
