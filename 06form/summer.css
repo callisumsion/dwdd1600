@@ -47,7 +47,7 @@ nav li a:hover {
 
 /*main image stuff here*/
 figure.wrapped {
-    margin: 0 0 0 10;
+    margin: 0 0 0 10px;
     width: 30%;
     float: right;
 }
@@ -149,11 +149,11 @@ main a:hover {
     margin: .5rem;
 }
 
-.myForm label, .myForm select, .myForm [type=text], .myForm [type=tel], .myForm textarea {
+.myForm label, .myForm select, .myForm [type=text], .myForm [type=tel], .myForm [type=email], .myForm textarea {
     display: block;
 }
 
-.myForm [type=text], .myForm [type=tel], .myForm select, .myForm textarea 
+.myForm [type=text], .myForm [type=tel], .myForm [type=email], .myForm select, .myForm textarea 
 {
     border: solid 1px #666666;
     padding: .3rem; 
