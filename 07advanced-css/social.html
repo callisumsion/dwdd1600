@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Calli Sumsion">
+    <meta name="description" content="Activities to do in the summer">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oxygen:wght@300;400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="summer.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <title>Summer Bucket List</title>
+</head>
+
+<body>
+    <!-- start the page head -->
+    <header>
+        <img src="images/logo.webp" alt="logo for Summer Bucket List" width="98" height="65">
+        <span>Summer Bucket List</span>
+    </header>
+
+    <!-- start the page navigation -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Explore & Adventure</a></li>
+            <li><a href="create.html">Create & Express</a></li>
+            <li><a href="grow.html">Grow & Glow-Up</a></li>
+            <li class="active"><a href="social.html">Social & Fun</a></li>
+            <li><a href="_blank">Recharge & Reset</a></li>
+            <li><a href="_blank">Contact Us</a></li>
+        </ul>
+
+    </nav>
+
+    <!-- start the main content -->
+    <main>
+        <h1>Social & Fun</h1>
+         <h2>Event Sign-Up</h2>
+  <p>Want to join or organize a summer hangout? Fill out the form below and let’s make it happen!</p>
+
+    <form method="get" class="myForm" action="thanks.html">
+
+            <fieldset>
+                <legend>Customer Information</legend>
+                <label>First Name*<input type="text" name="fname" required></label>
+                <label>Last Name*<input type="text" name="lname" required></label>
+                <label>Cell Number*<input type="tel" name="phone" required placeholder="123-456-7891"></label>
+                <label>Email Address*<input type="email" name="email" required></label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Event Type</legend>
+                <label><input type="radio" name="method" value="movie">Outdoor Movie Night</label>
+                <label><input type="radio" name="method" value="game">Game Night</label>
+                <label><input type="radio" name="method" value="picnic">Group Picnic</label>
+                <label><input type="radio" name="method" value="beach">Beach Day</label>
+                <label><input type="radio" name="method" value="concert">Concert Meetup</label>
+                <label><input type="radio" name="method" value="other">Other</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Roles You'd Like to Take</legend>
+                <label><input type="checkbox" name="organize" value="chosen">Organize & Planning</label>
+                <label><input type="checkbox" name="setup" value="chosen">Setup & Logistics</label>
+                <label><input type="checkbox" name="food" value="chosen">Food & Entertainment</label>
+                <label><input type="checkbox" name="promo" value="chosen">Promotion & Media</label>
+            </fieldset>
+
+            <label>Share any ideas or details
+                <textarea name="comments"></textarea>
+            </label>
+
+            <input type="submit" value="Send Event Sign-Up">
+        </form>
+
+       
+
+    </main>
+
+    <!-- start the footer -->
+    <footer>
+        <p>&copy;2025 &bull; Calli Sumsion &bull; DGM Project</p>
+    </footer>
+
+</body>
+
+</html>
