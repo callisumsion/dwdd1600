@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Calli Sumsion">
+    <meta name="description" content="Vacation Destinations & Planning">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <title>Budget Vacations</title>
+</head>
+
+<body>
+    <!-- start the page head -->
+    <header>
+        <img src="images/logo.webp" alt="logo for Budget Vacations" width="90" height="49">
+        <span>Budget Vacations</span>
+    </header>
+
+    <!-- start the page navigation -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="destination.html">Destination Gallery</a></li>
+            <li><a href="video.html">Video Clip</a></li>
+            <li><a href="package.html">Packages</a></li>
+            <li class="active"><a href="contact.html">Contact</a></li>
+        </ul>
+
+    </nav>
+
+    <!-- start the main content -->
+    <main>
+        <h1>Contact</h1>
+        <form method="get" class="myForm" action="thanks.html">
+
+            <fieldset>
+                <legend>Customer Information</legend>
+                <label>First Name*<input type="text" name="fname" required></label>
+                <label>Last Name*<input type="text" name="lname" required></label>
+                <label>Phone Number*<input type="tel" name="phone" required placeholder="123-456-7891"></label>
+                <label>Email Address*<input type="email" name="email" required></label>
+            </fieldset>
+
+            <fieldset>
+                <legend>What type of trip are you planning?</legend>
+                <select id="trips" name="trips">
+                <option value="family">Family Vacation</option>
+                <option value="couple">Romantic Getaway</option>
+                <option value="solo">Solo Adventure</option>
+                </select>
+            </fieldset>
+
+            <fieldset>
+                <legend>How would you prefer we contact you?</legend>
+                <label><input type="radio" name="method" value="email">Email</label>
+                <label><input type="radio" name="method" value="phone call">Phone Call</label>
+                <label><input type="radio" name="method" value="text">Text Message</label>
+            </fieldset>
+
+
+            <label>Tell us more about your travel plans or questions:
+                <textarea name="comments"></textarea>
+            </label>
+
+            <input type="submit" value="Send Vacation Info">
+        </form> 
+        
+
+    </main>
+
+    <!-- start the footer -->
+    <footer>
+        <p>&copy;2025 &bull; Calli Sumsion &bull; DGM Capstone Project</p>
+    </footer>
+
+</body>
+
+</html>
